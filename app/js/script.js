@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-
+    const rootElement = document.documentElement;
   
 
 

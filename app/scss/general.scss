@@ -1,16 +1,16 @@
-body {
-  &.lock {
+html {
+  &.block {
     overflow: hidden;
   }
 }
 
 body {
-  font-family: 'Inter',sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 120%;
-
-  color: #081F28;
+  //font-family: 'Inter',sans-serif;
+  //font-style: normal;
+  //font-size: 14px;
+  //line-height: 120%;
+  //
+  //color: #081F28;
 
 
   display: flex;
@@ -20,12 +20,12 @@ body {
 
 @media screen and (min-width: 768px) {
   body {
-    font-size: 16px;
-    line-height: 150%;
+    //font-size: 16px;
+    //line-height: 150%;
   }
 }
 
-.main-section{
+.main{
   overflow: hidden;
   flex: 1 0 auto;
 }
